@@ -20,7 +20,7 @@ namespace WindowsFormsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Text = "HELLO WORLD";
-
+            label1.Text = "hello my friends";
         }
     }
 }
