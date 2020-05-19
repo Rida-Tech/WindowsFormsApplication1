@@ -16,11 +16,5 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            label1.Text = "HELLO WORLD";
-            label1.Text = "hello my friends";
-        }
     }
 }
