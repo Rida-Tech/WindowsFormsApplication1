@@ -16,5 +16,11 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label1.Text = "HAMZA OUROURNE";
+            
+        }
     }
 }
