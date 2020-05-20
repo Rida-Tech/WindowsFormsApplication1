@@ -40,6 +40,7 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -152,12 +153,22 @@
             this.button4.Text = "Supprimer";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(562, 318);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 17);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Heur";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(957, 390);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.listView1);
@@ -193,6 +204,7 @@
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
