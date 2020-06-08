@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class S_Form2 : Form
     {
-        public Form1()
+        public S_Form2()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "rida";
+            label2.Text = textBox1.Text;
         }
     }
 }
